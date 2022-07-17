@@ -39,6 +39,8 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
         if (v.id == R.id.button_login) {
             handleLogin()
+        } else if (v.id == R.id.text_register) {
+            startActivity(Intent(this, RegisterActivity::class.java))
         }
 
     }
