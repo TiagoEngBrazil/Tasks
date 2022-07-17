@@ -17,7 +17,7 @@
     <string name="descricao">Descrição</string>
     <string name="prioridade">Prioridade</string>
     <string name="data_limite">Data Limite</string>
-    <string name="update_task">Atualizar tarefa</string>
+    <string name="upDate_task">Atualizar tarefa</string>
     <string name="clique_para_selecionar_a_data">Clique para selecionar a data limite</string>
     <string name="completa">Completa</string>
     <string name="adicionar_tarefa">Adicionar tarefa</string>

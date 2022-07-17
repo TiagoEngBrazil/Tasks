@@ -41,7 +41,7 @@ class TaskFormViewModel(application: Application) : AndroidViewModel(application
         if (task.id == 0) {
             taskRepository.create(task, listener)
         } else {
-            taskRepository.update(task, listener)
+            taskRepository.upDate(task, listener)
         }
     }
 

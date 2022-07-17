@@ -48,5 +48,4 @@ interface TaskService {
     @HTTP(method = "DELETE", path = "task", hasBody = true)
     @FormUrlEncoded
     fun delete(@Field("Id") id: Int): Call<Boolean>
-    abstract fun update(id: Int, priorityId: Int, description: String, dueDate: String, complete: Boolean): Call<Boolean>
 }
